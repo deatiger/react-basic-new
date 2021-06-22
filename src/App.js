@@ -3,9 +3,9 @@ import {BadCounter, Counter, TextInput, ToggleButton} from "./components";
 function App() {
   return (
     <div>
-      <TextInput />
-      <BadCounter />
-      <Counter />
+      {/*<TextInput />*/}
+      {/*<BadCounter />*/}
+      {/*<Counter />*/}
       <ToggleButton />
     </div>
   );

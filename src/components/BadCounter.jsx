@@ -4,6 +4,7 @@ const BadCounter = () => {
   const [count, setCount] = useState(0)
 
   const countUp = () => {
+    // ここに重い処理があったとしたら
     setCount(count + 1)
   }
 
